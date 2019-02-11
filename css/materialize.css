@@ -1,3 +1,14 @@
+.container {
+  width: 100%;
+  max-width: initial; }
+  .container > .row {
+    margin: 0; }
+    .container > .row > .col {
+      padding: 0; }
+
+nav {
+  box-shadow: none !important; }
+
 .nav-wrapper {
   background-color: white; }
   .nav-wrapper a {

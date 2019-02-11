@@ -2,6 +2,22 @@
 
 $siteTheme: #41d6c3;
 
+
+
+.container{
+            width: 100%;
+            max-width:initial;
+            > .row{
+                margin: 0;
+                > .col{
+                    padding: 0;
+                }
+            }
+        }
+
+nav{
+	box-shadow:none !important;
+}
 .nav-wrapper{
 	
 	background-color:white;
