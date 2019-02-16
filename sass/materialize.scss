@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
-$siteTheme: #41d6c3;
-
-
+$siteTheme: #252C45;
+$linkColor: #80A0C8;
 
 .container{
             width: 100%;
@@ -28,7 +27,13 @@ nav{
 			color:$siteTheme;
 		}
 	}
+}
+footer{
+	background-color:$siteTheme !important;
 	
+	::placeholder{
+		color:white !important;
+	}
 }
 
 // Color

@@ -14,7 +14,12 @@ nav {
   .nav-wrapper a {
     color: black; }
     .nav-wrapper a.brand-logo {
-      color: #41d6c3; }
+      color: #252C45; }
+
+footer {
+  background-color: #252C45 !important; }
+  footer ::placeholder {
+    color: white !important; }
 
 .materialize-red {
   background-color: #e51c23 !important; }
