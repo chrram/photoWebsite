@@ -3,6 +3,10 @@
 $siteTheme: #252C45;
 $linkColor: #80A0C8;
 
+@mixin footerMargin(){
+	margin:30px auto 30px auto;
+}
+
 .container{
             width: 100%;
             max-width:initial;
@@ -16,6 +20,28 @@ $linkColor: #80A0C8;
 
 nav{
 	box-shadow:none !important;
+}
+
+.footerLogo{
+	font-size:3.1rem;
+	display:block;
+	width:100px;
+	@include footerMargin();
+}
+
+.fab{
+	margin:0px 5px 0px 5px;
+}
+
+.footerLinksDiv{
+	width:210px;
+	
+	@include footerMargin();
+	a, a:active, a:focus, a:hover {
+		color:white;
+		margin:0px 10px 0px 10px;
+		display:inline-block;
+	}
 }
 .nav-wrapper{
 	
@@ -31,9 +57,6 @@ nav{
 footer{
 	background-color:$siteTheme !important;
 	
-	::placeholder{
-		color:white !important;
-	}
 }
 
 // Color

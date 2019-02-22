@@ -11,6 +11,7 @@ body {
   // display: flex;
   // min-height: 100vh;
   // flex-direction: column;
+  font-family: proxima-nova;
 }
 
 main {
@@ -37,7 +38,7 @@ ul {
 }
 
 a {
-	color: $link-color;
+	color: white;
 	text-decoration: none;
 
   // Gets rid of tap active state
