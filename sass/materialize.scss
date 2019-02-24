@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 $siteTheme: #252C45;
+
 $linkColor: #80A0C8;
+$footerLinks: #ec3936;
 
 @mixin footerMargin(){
 	margin:30px auto 30px auto;
@@ -22,27 +24,13 @@ nav{
 	box-shadow:none !important;
 }
 
-.footerLogo{
-	font-size:3.1rem;
-	display:block;
-	width:100px;
-	@include footerMargin();
-}
+
 
 .fab{
 	margin:0px 5px 0px 5px;
 }
 
-.footerLinksDiv{
-	width:210px;
-	
-	@include footerMargin();
-	a, a:active, a:focus, a:hover {
-		color:white;
-		margin:0px 10px 0px 10px;
-		display:inline-block;
-	}
-}
+
 .nav-wrapper{
 	
 	background-color:white;
@@ -55,8 +43,32 @@ nav{
 	}
 }
 footer{
-	background-color:$siteTheme !important;
+	background-color:white !important;
+	color:black !important;
+	font-family:'PT Serif';
 	
+	.footerLinksDiv{
+		width:225px;
+	
+		@include footerMargin();
+		a, a:active, a:focus, a:hover {
+			text-transform:uppercase;
+			font-weight:bold;
+			color:$footerLinks;
+			line-height:1.8em;
+			letter-spacing:0.09rem;
+			margin:0px 10px 0px 10px;
+			display:inline-block;
+		}
+		
+	}
+	.footerLogo{
+		font-size:3.1rem;
+		display:block;
+		color:black !important;
+		width:100px;
+		@include footerMargin();
+	}
 }
 
 // Color

@@ -9,22 +9,8 @@
 nav {
   box-shadow: none !important; }
 
-.footerLogo {
-  font-size: 3.1rem;
-  display: block;
-  width: 100px;
-  margin: 30px auto 30px auto; }
-
 .fab {
   margin: 0px 5px 0px 5px; }
-
-.footerLinksDiv {
-  width: 210px;
-  margin: 30px auto 30px auto; }
-  .footerLinksDiv a, .footerLinksDiv a:active, .footerLinksDiv a:focus, .footerLinksDiv a:hover {
-    color: white;
-    margin: 0px 10px 0px 10px;
-    display: inline-block; }
 
 .nav-wrapper {
   background-color: white; }
@@ -34,7 +20,26 @@ nav {
       color: #252C45; }
 
 footer {
-  background-color: #252C45 !important; }
+  background-color: white !important;
+  color: black !important;
+  font-family: 'PT Serif'; }
+  footer .footerLinksDiv {
+    width: 225px;
+    margin: 30px auto 30px auto; }
+    footer .footerLinksDiv a, footer .footerLinksDiv a:active, footer .footerLinksDiv a:focus, footer .footerLinksDiv a:hover {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #ec3936;
+      line-height: 1.8em;
+      letter-spacing: 0.09rem;
+      margin: 0px 10px 0px 10px;
+      display: inline-block; }
+  footer .footerLogo {
+    font-size: 3.1rem;
+    display: block;
+    color: black !important;
+    width: 100px;
+    margin: 30px auto 30px auto; }
 
 .materialize-red {
   background-color: #e51c23 !important; }
@@ -2036,7 +2041,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  font-family: proxima-nova; }
+  font-family: 'PT Serif'; }
 
 button,
 input,
