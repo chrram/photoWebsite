@@ -8,16 +8,25 @@
 
 nav {
   box-shadow: none !important; }
+  nav .nav-wrapper {
+    background-color: white; }
+    nav .nav-wrapper a {
+      color: black; }
+      nav .nav-wrapper a.brand-logo {
+        color: #252C45; }
+    nav .nav-wrapper :hover a {
+      opacity: .3; }
+    nav .nav-wrapper #nav-mobile li a {
+      background-color: transparent;
+      color: #252C45;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px; }
+    nav .nav-wrapper #nav-mobile li a:hover {
+      opacity: 1; }
 
 .fab {
   margin: 0px 5px 0px 5px; }
-
-.nav-wrapper {
-  background-color: white; }
-  .nav-wrapper a {
-    color: black; }
-    .nav-wrapper a.brand-logo {
-      color: #252C45; }
 
 footer {
   background-color: white !important;

@@ -20,28 +20,48 @@ $footerLinks: #ec3936;
             }
         }
 
-nav{
+nav {
 	box-shadow:none !important;
+	
+	.nav-wrapper{
+	
+		background-color:white;
+		a{
+			color:black;
+			
+			&.brand-logo{
+				color:$siteTheme;
+			}
+		}
+		
+		:hover a{
+			opacity: .3;
+		}
+		
+		#nav-mobile {
+			li {
+				
+				a {
+					background-color:transparent;
+					color:$siteTheme;
+					text-transform:uppercase;
+					font-weight:bold;
+					font-size:13px;
+				}
+				a:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
 }
-
-
 
 .fab{
 	margin:0px 5px 0px 5px;
 }
 
 
-.nav-wrapper{
-	
-	background-color:white;
-	a{
-		color:black;
-		
-		&.brand-logo{
-			color:$siteTheme;
-		}
-	}
-}
+
 footer{
 	background-color:white !important;
 	color:black !important;
