@@ -2,41 +2,44 @@
 	<html>
 		<head>
 			<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-			<link href='https://fonts.googleapis.com/css?family=PT Serif' rel='stylesheet'>
+			<link href="https://fonts.googleapis.com/css?family=PT Serif" rel="stylesheet">
 			<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 			<script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
 			<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+			
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 			<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<title>Photoblog</title>
 		</head>
 
 		<body class="container">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="#" data-target="slide-out" class="sidenav-trigger right">
+					<a href="javascript:void(0)" data-target="slide-out" class="sidenav-trigger right">
 						<i class="black-text material-icons">menu</i>
 					</a>
-					<a href="#" class="brand-logo left">Logo</a>
+					<a href="javascript:void(0)" class="brand-logo left">Logo</a>
 					
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 					
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#"><i class="fab fa-instagram tiny"></i></a></li>
-						<li><a href="#"><i class="fab fa-facebook-f tiny"></i></a></li>
+						<li><a href="javascript:void(0)">Portfolio</a></li>
+						<li><a href="javascript:void(0)">News</a></li>
+						<li><a href="javascript:void(0)"><i class="fab fa-instagram tiny"></i></a></li>
+						<li><a href="javascript:void(0)"><i class="fab fa-facebook-f tiny"></i></a></li>
 						
 						
 					</ul>
 				</div>
 				
-				
 			<ul id="slide-out" class="sidenav">
-				<li><a href="#!"><i class="material-icons">cloud</i>First Link With Ico</a></li>
-				<li><a href="#!">Second Link</a></li>
+				<li><a class="center" href="javascript:void(0)">Logo</a></li>
 				<li><div class="divider"></div></li>
-				<li><a class="subheader">Subheader</a></li>
-				<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+				<li><a class="waves-effect" href="javascript:void(0)">Portfolio</a></li>
+				<li><a class="waves-effect" href="javascript:void(0)">News</a></li>
+				<li><a class="waves-effect" href="javascript:void(0)">Instagram<i class="fab fa-instagram tiny"></i></a></li>
+				<li><a class="waves-effect" href="javascript:void(0)">Facebook<i class="fab fa-facebook-f tiny"></i></a></li>
 			</ul>
 			
 			
@@ -59,41 +62,28 @@
 	
 			<footer class="page-footer center">
 				
-				<a href="#" class="footerLogo">Logo</a>
+				<a href="javascript:void(0)" class="footerLogo">Logo</a>
 				<b class="">Inspiration, motivation and enjoying life.</b>
 			
 				<div class="footerLinksDiv">
-					<a href="#">About</a>
-					<a href="#">Home</a>
-					<a href="#">Tel:</a>
+					<a href="javascript:void(0)">About</a>
+					<a href="javascript:void(0)">Home</a>
+					<a href="javascript:void(0)">Tel:</a>
 				</div>
-				<a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><i class="fab fa-facebook-f"></i></a>
-				<div style="footer-copyright ">
+				<a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+				<a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+				<div class="footer-copyright">
 					<div class="container">
-						&copy; 2019 Copyright
+						<p class="black-text">&copy; 2019 Copyright<p>
 					</div>
 				</div>
 			
 			</footer>
 		<script type="text/javascript" src="js/bin/materialize.min.js"></script>
 		<script>
-		
-		  document.addEventListener('DOMContentLoaded', function() {
-			var elems = document.querySelectorAll('.sidenav');
-			var instances = M.Sidenav.init(elems, options);
-		  });
-
-		  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-		  // var collapsibleElem = document.querySelector('.collapsible');
-		  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-
-		  // Or with jQuery
-
-		  $(document).ready(function(){
-			$('.sidenav').sidenav();
-		  });
-		
+			$(document).ready(function(){
+				$(".sidenav").sidenav();
+			});
 		</script>
 	</body>
 </html>

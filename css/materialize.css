@@ -32,6 +32,8 @@ footer {
   background-color: white !important;
   color: black !important;
   font-family: 'PT Serif'; }
+  footer .footer-copyright {
+    background-color: white !important; }
   footer .footerLinksDiv {
     width: 225px;
     margin: 30px auto 30px auto; }
