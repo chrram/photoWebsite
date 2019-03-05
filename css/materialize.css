@@ -52,6 +52,11 @@ footer {
     width: 100px;
     margin: 30px auto 30px auto; }
 
+.textBetweenSections {
+  padding: 60px 60px 60px 60px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
