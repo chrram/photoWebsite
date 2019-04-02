@@ -17,15 +17,15 @@ $footerLinks: #ec3936;
 }
 
 .container{
-            width: 100%;
-            max-width:initial;
-            > .row{
-                margin: 0;
-                > .col{
-                    padding: 0;
-                }
-            }
-        }
+	width: 100%;
+	max-width:initial;
+	> .row{
+		margin: 0;
+		> .col{
+			padding: 0;
+			}
+	}
+}
 
 nav {
 	box-shadow:none !important;
@@ -65,6 +65,17 @@ nav {
 
 .fab{
 	margin:0px 5px 0px 5px;
+}
+
+img.responsive-img {
+	height:400px !important;
+}
+
+
+@for $i from 0 through 0{
+	.distance-#{$i}{
+		margin-top:random(600)+px !important;
+	}
 }
 
 footer{
